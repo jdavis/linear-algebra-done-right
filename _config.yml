@@ -14,6 +14,9 @@ collections:
         title: Vector Spaces
         output: true
         permalink: /chapter/01/:path/
+        description:
+            Starts off by defining complex numbers along side real numbers.
+            Then introduces vector spaces and their basic properties.
 
 css:
     - /css/base.css

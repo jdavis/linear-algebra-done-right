@@ -8,8 +8,13 @@ description:
 <h2>Linear Algebra Done Right</h2>
 
 {% for collection in site.collections %}
-<h4>{{collection[1].name}} - {{collection[1].title}}</h4>
-<a href="/chapter/{{ collection[1].number }}/">Summary</a>
+<h3>{{collection[1].name}} - {{collection[1].title}}</h3>
+<p>
+    {{  collection[1].description }}
+    <a href="/chapter/{{ collection[1].number }}/">View notes.</a>
+</p>
+
+<h4>Exercises</h4>
 <ul class="pretty">
     {% for exercise in collection[1].docs %}
     <li>

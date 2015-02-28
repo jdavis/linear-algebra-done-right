@@ -56,8 +56,11 @@ ul.pretty {
     padding: 30px 40px;
 }
 
-.content h1, .content h2, .content h3, .content h4, .content h5 {
+.content h1, .content h2 {
     margin-bottom: 18px;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5 {
     padding-bottom: 6px;
     clear: both;
 }
