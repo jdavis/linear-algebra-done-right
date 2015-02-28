@@ -2,7 +2,7 @@ highlighter: pygments
 markdown: kramdown
 permalink: pretty
 
-base: /linear-algebra-done-right/
+base: linear-algebra-done-right
 title: Linear Algebra Done Right
 author: Josh Davis
 contact:
