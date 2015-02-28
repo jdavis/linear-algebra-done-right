@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+description:
+    Solutions and notes from the book Linear Algebra Done Right.
+---
+
+<h2>Linear Algebra Done Right</h2>
+
+{% for collection in site.collections %}
+<h4>{{collection[1].name}} - {{collection[1].title}}</h4>
+<ul>
+    {% for exercise in collection[1].docs %}
+    <li>
+        <a href="{{ exercise.url }}">
+            Exercise {{exercise.number}}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}

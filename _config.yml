@@ -1,0 +1,26 @@
+highlighter: pygments
+markdown: kramdown
+permalink: pretty
+
+title: Linear Algebra Done Right
+author: Josh Davis
+contact:
+    email: linear@joshldavis.com
+
+collections:
+    chapter01:
+        name: Chapter 1
+        title: Vector Spaces
+        output: true
+
+js:
+    - //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+exclude:
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - Rakefile
+    - TODO.md
