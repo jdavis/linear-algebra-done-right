@@ -10,8 +10,13 @@ contact:
 collections:
     chapter01:
         name: Chapter 1
+        number: '01'
         title: Vector Spaces
         output: true
+        permalink: /chapter/01/:path/
+
+css:
+    - /css/base.css
 
 js:
     - //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML

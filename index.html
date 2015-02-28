@@ -9,7 +9,8 @@ description:
 
 {% for collection in site.collections %}
 <h4>{{collection[1].name}} - {{collection[1].title}}</h4>
-<ul>
+<a href="/chapter/{{ collection[1].number }}/">Summary</a>
+<ul class="pretty">
     {% for exercise in collection[1].docs %}
     <li>
         <a href="{{ exercise.url }}">
