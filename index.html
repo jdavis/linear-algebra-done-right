@@ -11,14 +11,14 @@ description:
 <h3>{{collection[1].name}} - {{collection[1].title}}</h3>
 <p>
     {{  collection[1].description }}
-    <a href="/chapter/{{ collection[1].number }}/">View notes.</a>
+    <a href="/{{site.base}}/chapter/{{ collection[1].number }}/">View notes.</a>
 </p>
 
 <h4>Exercises</h4>
 <ul class="pretty">
     {% for exercise in collection[1].docs %}
     <li>
-        <a href="{{ exercise.url }}">
+        <a href="/{{site.base}}/{{ exercise.url }}">
             Exercise {{exercise.number}}
         </a>
     </li>

@@ -2,6 +2,7 @@ highlighter: pygments
 markdown: kramdown
 permalink: pretty
 
+base: /linear-algebra-done-right/
 title: Linear Algebra Done Right
 author: Josh Davis
 contact:
@@ -19,7 +20,7 @@ collections:
             Then introduces vector spaces and their basic properties.
 
 css:
-    - /linear-algebra-done-right/css/base.css
+    - /css/base.css
 
 js:
     - //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
