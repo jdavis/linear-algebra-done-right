@@ -20,7 +20,7 @@ collections:
             Then introduces vector spaces and their basic properties.
 
 css:
-    - /css/base.css
+    - /linear-algebra-done-right/css/base.css
 
 js:
     - //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
