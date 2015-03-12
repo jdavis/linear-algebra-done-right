@@ -25,7 +25,7 @@ Algebra Done Right][linear-site] ([Amazon link][amzn-link]).
 <ul class="pretty">
     {% for exercise in collection[1].docs %}
     <li>
-        <a href="/{{site.base}}/{{ exercise.url }}">
+        <a href="/{{site.base}}{{ exercise.url }}">
             Exercise {{exercise.number}}
         </a>
     </li>
